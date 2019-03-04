@@ -6,7 +6,6 @@ function initUI() {
     workEntrySubmit = document.querySelector("[rel*=js-submit-work-entry]");
     projectList = document.querySelector("[rel*=js-project-list]");
 
-    debugger;
     var handleClick = function(){
         var projectId = workEntrySelectProject.value;
         var description = workEntryDescription.value;
@@ -93,7 +92,6 @@ var projects = [];
 initUI();
 
 // hard coding some initial data
-debugger;
 addProject("client features");
 addProject("overhead");
 addProject("backlog");
